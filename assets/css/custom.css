@@ -1,0 +1,141 @@
+#edituser {
+    position: absolute;
+    bottom: 5%;
+    right: 45%;
+}
+
+#seemore {
+    position: absolute;
+    bottom: 2%;
+    right: 38%;
+}
+
+#myaccount {
+    min-height: 520px;
+}
+
+.betImg {
+    border-radius: 50%;
+}
+
+.fight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.fighter {
+    padding: 10px;
+}
+
+.t-img {
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+}
+
+#main {
+    margin-top: 60px;
+}
+
+#values {
+    margin-top: -60px;
+}
+
+.contest {
+    padding-top: 40px;
+}
+
+.extra {
+    height: 230px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #ff5821;
+    
+}
+
+.submit {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.staking {
+    padding: 80px 0;
+    background: url("../img/staking-1.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.awardCard {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#mdiv > div {
+    display: inline-block;
+}
+
+#mdiv {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cdiv {
+    font-size:30px; 
+    font-weight:bold; 
+    padding:10px; 
+    cursor:pointer; 
+}
+
+.versus {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 230px) {
+    #myaccount {
+        min-height: 620px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .portfolio .portfolio-item .details-link {
+    position: absolute;
+    top: 2%;
+    right: 30%;
+    }
+    
+   .awardCard {
+        font-size: 10px;
+    }
+    
+    .extra {
+        min-height: 250px;
+    }
+    
+    #calculate {
+        margin-top: 10px;
+    }
+    
+    #myaccount {
+        min-height: 560px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .fight {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+
